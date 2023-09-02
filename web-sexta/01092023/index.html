@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <!-- <table width="40%" border="0" cellpadding="4" bgcolor="YELLOW">
+        <caption><b>Curso HTML Progressivo</b></caption>
+        <tr align="center">
+            <td>Curso de HTML</td> <td>Curso de CSS</td>
+        </tr>
+        <tr align="center" bgcolor="#0000ff">
+            <td>Curso de HTML 5</td> <td>Curso de Webaster</td>
+        </tr>
+    </table> -->
+<form action="../home.html">
+    <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"><br>
+
+    <label for="review">Review</label>
+    <textarea id="txtreview" name="tctreview" row="4" cols="50">
+        ABDC...
+    </textarea><br><br>
+
+    <label for="cars" id="cars">Escolha seu carro:</label>
+
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="volvo">Ferrari</option>
+        <option value="volvo">Mercedes</option>
+        <option value="volvo">Audi</option>
+    </select><br><br>
+
+    <label for="cars" id="cars">Escolha seu carro:</label>
+    <select name="cars" id="cars">
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option value="mercedes">Volvo</option>
+            <option value="audi">Saab</option>
+        </optgroup>
+
+    </select><br><br>
+
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+    <input type="submit" value="Submit"><br>
+</form>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="range" id="a" value="50">
+    +<input type="number"id="b" value="25">
+    =<output name="x" for="a b"></output>
+</form>
+
+
+
+</body>
+</html>
